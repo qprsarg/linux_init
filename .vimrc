@@ -17,6 +17,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'jalvesaq/southernlights'
 Plugin 'felipesousa/rupza'
 Plugin 'python-mode/python-mode'
+Plugin 'powerline/powerline', {'rtp': '/home/sabuser/opt/powerline/bindings/vim/'}
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -47,3 +48,16 @@ let python_highlight_all = 1
 let g:pymode_lint = 0
 
 colorscheme southernlights
+
+" Netrw file manager
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+let g:netrw_browse_split = 4
+let g:netrw_altv = 1
+let g:netrw_winsize = 25
+augroup ProjectDrawer
+  autocmd!
+  autocmd VimEnter * :Vexplore
+augroup END
+
+

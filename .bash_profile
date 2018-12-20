@@ -12,3 +12,7 @@ PATH=$PATH:$HOME/bin:$HOME/go/bin
 export PATH
 
 export GOROOT=/home/sabuser/go
+
+if [ -z "$TMUX" ]; then
+    tmux attach -t default || tmux new -s default
+fi
