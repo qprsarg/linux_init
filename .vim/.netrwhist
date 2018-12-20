@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/sabuser/GIT/test-env-mgmt/roles/crt_deploy'
+let g:netrw_dirhist_2='/home/sabuser/.config'
+let g:netrw_dirhist_3='/home/sabuser/GIT/dashboard/dashboard/templates'
+let g:netrw_dirhist_4='/home/sabuser/.local'
